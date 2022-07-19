@@ -4,12 +4,13 @@ import http from "http";
 import express from "express";
 
 
-const port = 3000;
+const PORT = process.env.PORT || 3000;
 const app = express();
 
 app.use(express.static('./public'));
 
-//rotas TODO!
 
 const server = http.createServer(app);
-server.listen(process.env.port || port);
+server.listen(PORT, () => {
+    console.log(`Server running at port: ${PORT}`);
+});

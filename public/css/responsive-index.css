@@ -71,5 +71,10 @@
         width: 98%;
         margin: 0 auto;
     }
+    
+    #footer .copyright{
+        width: 100%;
+        text-align: center;
+    }
 }
 
