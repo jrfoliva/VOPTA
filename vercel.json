@@ -1,0 +1,12 @@
+{
+    "env": {
+      "MY_KEY": "87965#1234!",
+      "SECRET": "@testeVopta"
+    },
+    "build": {
+      "env": {
+        "MY_KEY": "teste123@teste",
+        "SECRET": "@teste123!teste"
+      }
+    }
+  }
