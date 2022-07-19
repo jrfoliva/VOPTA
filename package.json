@@ -1,0 +1,24 @@
+{
+  "name": "vopta",
+  "version": "1.0.0",
+  "description": "Site Estáticos",
+  "main": "index.js",
+  "type":"module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jrfoliva/VOPTA.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jrfoliva/VOPTA/issues"
+  },
+  "homepage": "https://github.com/jrfoliva/VOPTA#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
